@@ -1,0 +1,131 @@
+import 'package:get/get.dart';
+
+class MyLocale implements Translations {
+  @override
+  // TODO: implement keys
+  Map<String, Map<String, String>> get keys => {
+        'ar': {
+          'Arabic': 'العربية ',
+          'English': 'الإنجليزية',
+          'Click on': 'إضغط على',
+          'to start a search': 'لبدء البحث',
+          'Available balance': 'الرصيد المتاح',
+          'Total': 'المجموع',
+          'Let\'s Begin ... ': 'هيا نبدأ ...',
+          'Done': 'تخطي',
+          'no transactions found containing': 'لا توجد معاملات تحتوي على',
+          'Transactions': 'المعاملات',
+          'search...': 'ابحث...',
+          "January": "يناير",
+          "February": "فبراير",
+          "March": "مارس",
+          "April": "ابريل",
+          "May": "مايو",
+          "June": "يونيو",
+          "July": "يوليو",
+          "August": "اغسطس",
+          "September": "سبتمبر",
+          "October": "اكتوبر",
+          "November": "نوفمبر",
+          "December": "ديسمبر",
+          'Apply': 'حفظ',
+          'Cancel': 'إلغاء',
+          'Show all': 'عرض الكل',
+          'transactions loaded successfully': 'معاملات تم تحميلها بنجاح',
+          'no transactions found': 'لم يتم العثور على أي معاملات',
+
+          'you can use the filter to get the desired results': 'يمكنك استخدام زر التصفية للحصول على النتائج المرجوة',
+          'This value indicates the total amount of money that was disbursed': 'تشير هذه القيمة إلى المبلغ الإجمالي للأموال التي تم صرفها',
+          'while this value indicates the available balance of money on your payment card': 'بينما تشير هذه القيمة إلى رصيد الأموال المتاح في بطاقة الدفع الخاصة بك',
+          'Transaction ': 'المعاملة ',
+          'no transactions found': 'لم يتم العثور على أي معاملات',
+          'Choose period': 'اختر الفترة',
+          'choose transactions number': 'اختر عدد المعاملات',
+          'Transactions number': 'عدد المعاملات',
+          'transactions': 'معاملات',
+          'Show last': 'إظهار آخر',
+          'filter results': 'تصفية النتائج',
+
+          'Browse purchases':'تصفح المشتريات',
+          'This app will allow you to browse all your purchases.':'سيتيح لك هذا التطبيق تصفح جميع المشتريات الخاصة بك.',
+          'Stay notified':'ابق على اطلاع',
+          'You will be notified upon each purchase and you can keep track of your monthly expenses.':'سيتم اعلانك عند كل عملية شراء ويمكنك تتبع نفقاتك الشهرية.',
+          'Advanced search':'البحث المتقدم',
+          'You can specify the transactions that you have made in a certain period.':'يمكنك تحديد المعاملات التي قمت بها في مدة معينة.',
+          'Language':'اللغة',
+          'Select your preferred language':'اختر لغتك المفضلة',
+          'was spent on the last purchase':'تم إنفاقه على آخر عملية شراء',
+          'on the last purchase': 'في آخر عملية شراء',
+          'You spent': 'لقد أنفقت',
+          'AED': 'درهم',
+          'Loading...': 'تحميل...',
+
+        },
+
+        /// ////////////////////////////////// //////////////////////////////////////
+        /// ////////////////////////////// English //////////////////////////////////////
+        /// ////////////////////////////////// //////////////////////////////////////
+        'en': {
+          'Loading...': 'Loading...',
+
+          'Browse purchases':'Browse purchases',
+          'This app will allow you to browse all your purchases.':'This app will allow you to browse all your purchases.',
+          'Stay notified':'Stay notified',
+          'You will be notified upon each purchase and you can keep track of your monthly expenses.':'You will be notified upon each purchase and you can keep track of your monthly expenses.',
+          'Advanced search':'Advanced search',
+          'You can specify the transactions that you have made in a certain period.':'You can specify the transactions that you have made in a certain period.',
+          'Language':'Language',
+          'Select your preferred language':'Select your preferred language',
+
+          'was spent on the last purchase':'was spent on the last purchase',
+
+
+          'transactions loaded successfully': 'transactions loaded successfully',
+          'no transactions found': 'no transactions found',
+
+          'you can use the filter to get the desired results': 'you can use the filter to get the desired results',
+          'This value indicates the total amount of money that was disbursed': 'This value indicates the total amount of money that was disbursed',
+          'while this value indicates the available balance of money on your payment card': 'while this value indicates the available balance of money on your payment card',
+
+          'Transaction ': 'Transaction ',
+          'transactions': 'transactions',
+          'filter results': 'filter results',
+          'Show last': 'Show last',
+
+          'no transactions found': 'no transactions found',
+          'Choose period': 'Choose period',
+          'choose transactions number': 'choose transactions number',
+          'Transactions number': 'Transactions number',
+          'on the last purchase': 'on the last purchase',
+          'You spent': 'You spent',
+          'AED': 'AED',
+          'Apply': 'Apply',
+          'Cancel': 'Cancel',
+          'Show all': 'Show all',
+          'Click on': 'Click on',
+          'to start a search': 'to start a search',
+          'Available balance': 'Available balance',
+          'Let\'s Begin ... ': 'Let\'s Begin ... ',
+          'Total': 'Total',
+          'Transactions': 'Transactions',
+          'no transactions found containing': 'no transactions found containing',
+          'Done': 'Done',
+          'search...': 'search...',
+          'Arabic': 'Arabic',
+          'English': 'English',
+
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December",
+        },
+      };
+}
